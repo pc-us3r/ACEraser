@@ -45,9 +45,9 @@ ActivityEraser ⚙️🧹
     Запускайте от имени администратора для операций с HKLM, BAM и журналами событий.
 
     Сборка:
-go get fyne.io/fyne/v2
-go get golang.org/x/sys/windows golang.org/x/sys/windows/registry
-go build -o ActivityEraser.exe .
+    go get fyne.io/fyne/v2
+    go get golang.org/x/sys/windows golang.org/x/sys/windows/registry
+    go build -o ActivityEraser.exe .
 
     Или используйте готовый релиз.
     
