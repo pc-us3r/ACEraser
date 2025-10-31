@@ -1,0 +1,28 @@
+# Go
+bin/
+build/
+dist/
+*.exe
+*.dll
+*.so
+*.dylib
+*.test
+*.out
+
+# Go workspaces
+go.work
+go.work.sum
+
+# Logs
+*.log
+logs/
+*.evtx
+
+# IDE
+.idea/
+.vscode/
+*.iml
+
+# OS
+.DS_Store
+Thumbs.db
