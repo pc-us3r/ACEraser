@@ -67,7 +67,7 @@ func showDisclaimer(w fyne.Window, onResult func(accepted bool)) {
 
 	lbl := widget.NewLabel(text)
 
-	uLicense, _ := url.Parse("https://github.com/pc-us3r/ACEraser/blob/master/LICENSE%20(MIT")
+	uLicense, _ := url.Parse("https://github.com/pc-us3r/ACEraser/blob/master/LICENSE%20(MIT)")
 	uPolicy, _ := url.Parse("https://github.com/pc-us3r/ACEraser/blob/master/POLICY.md")
 	linkLicense := widget.NewHyperlink("LICENSE (MIT)", uLicense)
 	linkPolicy := widget.NewHyperlink("POLICY.md (Acceptable Use)", uPolicy)
